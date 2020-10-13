@@ -1,0 +1,61 @@
+box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin-left: auto;
+    margin-right: auto;
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%; /* Adjust this value to move the positioned div up and down */
+    text-align: right;
+    width: 60%; /* Set the width of the positioned div */
+    color: rgb(223, 88, 109);
+    }
+nav ul li{
+    text-align:center ;
+    display: inline;
+    border-style: groove; 
+    color: rgb(223, 88, 109);
+    margin: 4px;
+}
+body {
+    background-color:  lightgrey;
+    text-align: center;
+}
+section img{
+    display: inline-block;
+    margin-top: -500px;
+    margin-left: -75px;
+    margin-bottom: 57px;
+    width:20%;
+     }
+main section h3 { 
+    display: inline;
+    margin-left: 37px;
+    padding: 3px;
+    border: 3px solid rgb(158, 19, 54);
+    text-align: centers
+}
+article section p {
+    display: block;
+    width: 250px;
+    height: 350px;
+    border-style: solid;
+    padding: 6px;
+    margin-left: 11%;
+}
+#center {
+    width: 250px;
+    height: 350px;
+    border-style: solid;
+    padding: 6px;
+    margin-left:33px;
+    text-align: left;
+    display: inline-block
+}
+footer p{
+    background-color: rgb(252, 180, 180);
